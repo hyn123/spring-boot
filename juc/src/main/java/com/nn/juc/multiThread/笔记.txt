@@ -1,0 +1,24 @@
+实现多线程的方式：
+    继承Thread类，实现Runable接口,使用ExecutorService、Callable、Future 实现带返回结果的多线程
+thread类和Runable接口不做演示 剩下的方式祥看CallableTest
+
+如何终止一个线程：
+    使用stop方法结束一个线程时，并不保证线程的资源正常释放，可能导致程序出现不确定的状态。
+    正确的释放是通过interrupt方法
+
+为什么 Object.wait、Thread.sleep 和 Thread.join 都 会 抛 出InterruptedException?
+你会发现这几个方法有一个共同点，都是属于阻塞的方法
+而阻塞方法的释放会取决于一些外部的事件，但是阻塞方
+法可能因为等不到外部的触发事件而导致无法终止，所以
+它允许一个线程请求自己来停止它正在做的事情。当一个
+方法抛出 InterruptedException 时，它是在告诉调用者如
+果执行该方法的线程被中断，它会尝试停止正在做的事情
+并且通过抛出 InterruptedException 表示提前返回。
+所以，这个异常的意思是表示一个阻塞被其他线程中断了。
+然 后 ， 由 于 线 程 调 用 了 interrupt() 中 断 方 法 ， 那 么
+Object.wait、Thread.sleep 等被阻塞的线程被唤醒以后会
+通过 is_interrupted 方法判断中断标识的状态变化，如果发
+现中断标识为 true，则先清除中断标识，然后抛出
+InterruptedException
+
+

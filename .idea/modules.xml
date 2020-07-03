@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/redis-lock/demo.iml" filepath="$PROJECT_DIR$/redis-lock/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-pattern/design.iml" filepath="$PROJECT_DIR$/design-pattern/design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-pattern/design-pattern.iml" filepath="$PROJECT_DIR$/design-pattern/design-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-productor/dubbo-productor.iml" filepath="$PROJECT_DIR$/dubbo-productor/dubbo-productor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/juc/juc.iml" filepath="$PROJECT_DIR$/juc/juc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongodb/mongodb.iml" filepath="$PROJECT_DIR$/mongodb/mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-productor/productor.iml" filepath="$PROJECT_DIR$/dubbo-productor/productor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-lock/redis-lock.iml" filepath="$PROJECT_DIR$/redis-lock/redis-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-pub-sub/redis-pub-sub.iml" filepath="$PROJECT_DIR$/redis-pub-sub/redis-pub-sub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentienl/sentienl.iml" filepath="$PROJECT_DIR$/sentienl/sentienl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webflux/webflux.iml" filepath="$PROJECT_DIR$/webflux/webflux.iml" />
+    </modules>
+  </component>
+</project>

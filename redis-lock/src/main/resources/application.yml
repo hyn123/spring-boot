@@ -1,0 +1,6 @@
+spring:
+  redis:
+    host: 47.104.237.108
+    port: 6379
+    password: hyn123!@#
+

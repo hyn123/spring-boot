@@ -1,0 +1,10 @@
+委派模式  方法调的是A类的，但实际执行的是B类 功劳是A类 实际干活的是B类
+AbstractOne 中定义抽象方法 refreshBeanFactory() ;
+AbstractTwo 中实现了refreshBeanFactory()
+AbstractThree 继承AbstractTwo
+....
+AbstractFive中调用 AbstractOne中的 obtainFreshBeanFactory() 方法
+                obtainFreshBeanFactory()方法又调用 refreshBeanFactory()
+                实际干活的是 AbstractTwo 中实现的 refreshBeanFactory()
+
+spring中也有应用
